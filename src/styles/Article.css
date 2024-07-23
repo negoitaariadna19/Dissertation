@@ -1,0 +1,245 @@
+/* .articles-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .article-list {
+    margin-top: 20px;
+  }
+  
+  .article-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .article-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .article-item p {
+    margin-bottom: 10px;
+  }
+  
+  .article-item .author {
+    font-style: italic;
+    color: #666;
+  }
+   */
+
+   /* ////////////////////////////////////////////////////////////
+   .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .article-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  ////////////////////////////////////////////////////////////////// */
+  /* .articles-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .article-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .article-card p {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .article-card.expanded {
+    width: 100%;
+  }
+  
+  .article-card.expanded p {
+    max-height: none;
+  }
+  
+  .article-card button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .article-card button:hover {
+    background-color: #45a049;
+  }
+  
+  .read-more-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-delete-btns {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+   */
+   /* ---------------------------------------------------- */
+   .articles-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #0968382f;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.article-card p {
+  max-height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.article-card.expanded {
+  width: 100%;
+}
+
+.article-card.expanded p {
+  max-height: none;
+}
+
+.article-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.article-buttons button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.article-buttons button:hover {
+  background-color: #45a049;
+}
+
+.read-more-btn {
+  flex: 1;
+}
+
+.edit-delete-btns {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-btn,
+.delete-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+.new-article-btn {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.new-article-btn:hover {
+  background-color: #45a049;
+}
+/* Stiluri pentru filtre */
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+}

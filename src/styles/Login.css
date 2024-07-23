@@ -1,0 +1,45 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #BACD92;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container {
+    margin-right: 20px; /* spațiere între imagine și formular */
+    position: absolute;
+  left: 10px; /* spațiu mic între imagine și marginea stângă */
+  top: 50%;
+  transform: translateY(-50%);
+  }
+  
+  .login-image {
+    width: 600px; /* ajustați dimensiunea imaginii după preferințe */
+    height: 600px; /* ajustați dimensiunea imaginii după preferințe */
+  }
+  
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .register-form {
+    border: 5px solid rgba(128, 128, 128, 0.5);
+    padding: 30px;
+    background-color: #BACD92; /* culoarea originală a formularului */
+    border-radius: 10px;
+  }
+  
+  .btn-primary {
+    background-color: green;
+    color: white;
+    border: none;
+  }
+  

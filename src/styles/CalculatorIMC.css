@@ -1,0 +1,71 @@
+/* General layout and theme adjustments
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+}
+
+.body {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+input.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #81A263;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #799351;
+}
+
+#bmiResult {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#bmiResult h2 {
+  margin-bottom: 10px;
+}
+
+#bmiResult p {
+  font-size: 16px;
+  color: #333;
+} */

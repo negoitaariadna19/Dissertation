@@ -1,0 +1,145 @@
+/* General layout and theme adjustments */
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .layout {
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .fa-spa {
+    font-size: 24px;
+    font-weight: bold;
+    color: #799351;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item i {
+    margin-right: 5px;
+  }
+  
+  .menu-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .menu-item.active,
+  .menu-item:hover {
+    background-color: #e0efdf; /* Lighter green background on hover */
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content a {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .header-content i {
+    color: #81A263; /* Icon color */
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styles for consistency and aesthetics */
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #e0efdf;
+    margin: 10px 0;
+  }
+  
+  a:hover {
+    color: #81A263;
+  }
+  
+  .menu-item i:hover {
+    color: #81A263;
+  }
+  
+  /* Styles for the filters */
+  .ant-select-selector,
+  .ant-input-number {
+    border-color: #81A263;
+  }
+  
+  .ant-select-selector:hover,
+  .ant-input-number:hover,
+  .ant-select-open .ant-select-selector,
+  .ant-input-number-focused {
+    border-color: #799351 !important;
+    box-shadow: 0 0 0 2px rgba(129, 162, 99, 0.2) !important;
+  }
+  
+  .ant-select-selection-item {
+    color: #81A263;
+  }
+  
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: #e0efdf !important;
+  }
+  
+  .ant-input-number-handler-wrap:hover {
+    color: #81A263;
+  }
+  
+  .ant-input-number:hover {
+    border-color: #81A263 !important;
+  }
+  
+  /* Doctor name styling */
+  .card-header {
+    color: #799351;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .text-center {
+    color: #799351;
+  }
+  .doctor-firstname {
+    margin-right: 3px; /* Adjust the margin as needed */
+  }

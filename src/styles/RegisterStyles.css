@@ -1,0 +1,22 @@
+.form-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#BACD92;
+    
+}
+
+.register-form2{
+    border: 5px solid rgba(128, 128, 128, 0.5);
+    padding: 30px;
+    /* width:30%; */
+    
+
+}
+.btn-primary2
+{
+    background-color: green;
+    color: white;
+    border: none;
+}
